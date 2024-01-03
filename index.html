@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Media queries</title>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <center>
+    <h1>Media queries</h1>
+    <img src="C:\Users\anush\Downloads\icons8-phone-48.png"class="col-lg-10 col-md-4 col-sm-4 col-xs-12">
+        <div class="holder">
+        <div class="box">box1aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+        <div class="box">box2ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</div>
+        </div>
+        <p> Media queries allow you to apply CSS styles depending on a device's general type (such as print vs. screen) or other characteristics such as screen resolution or browser viewport width.</p>
+        </center>
+    </body>
+    <style>
+        @media screen and (min-width:770px){
+            body{
+                background-color:green;
+            } 
+            h1{
+                background-color:red;
+                text-align: center;
+            }
+            img{
+                background-color: blueviolet;
+                left: 50px;
+                top:0px;
+            }
+            p{
+                font-style: initial;
+            }
+            .holder{
+                width: 100%;
+                border:ridge 3px blue;
+            }
+            .box{
+                width: 100%;
+                overflow: scroll;
+        }
+        @media screen and (max-width:769px){
+                body{
+                    background-color:white;
+                }
+        }
+    </style>
+</html>
